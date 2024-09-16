@@ -39,7 +39,7 @@ const ProductItem = ({product}) => {
   return (
     <article key = {product.id} className='hover:scale-[1.02] gap-2 transition-all duration-200  flex flex-col justify-between border border-blue-900 rounded-md'>
        
-        <img src = {product.image} alt = {product.category} className='max-w-[80%] min-h-[270px] max-h-[270px] self-center mt-2'/>
+        <img src = {product.image} loading = "lazy" alt = {product.category} className='max-w-[80%] min-h-[270px] max-h-[270px] self-center mt-2'/>
         
         <div className='flex flex-col gap-4 px-4 text-slate-100 bg-[#464956]  pb-4 '>
 

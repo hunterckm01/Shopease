@@ -16,7 +16,7 @@ const FavItem = ({product}) => {
   return (
     <article className='hover:scale-[1.01] gap-2 transition-all duration-200  flex flex-col justify-between border border-blue-900 rounded-md'>
       <div className='w-full flex justify-center  py-2 rounded-t-lg'>
-       <img src = {product.image} className='max-w-[80%] min-h-[200px] max-h-[200px] self-center mt-2'/>
+       <img src = {product.image} loading = "lazy" className='max-w-[80%] min-h-[200px] max-h-[200px] self-center mt-2'/>
       </div>
 
         <div className='flex flex-col gap-4 px-4 text-slate-100 bg-[#464956]  pb-4'>

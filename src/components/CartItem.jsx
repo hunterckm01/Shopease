@@ -14,7 +14,7 @@ const CartItem = ({product}) => {
   return (
     <article className='flex flex-col items-center justify-between hover:scale-[1.005] transition-all duration-200 mb-4 mt-4'>
       <div className='w-full flex justify-center border-2 border-gray-800 py-2 rounded-t-lg'>
-       <img src = {product.image} className='pc:min-h-[300px] pc:max-h-[300px] tab:min-h-[250px] tab:max-h-[250px] phone:min-h-[200px] phone:max-h-[200px] max-w-[80%] self-center'/>
+       <img src = {product.image} className='pc:min-h-[300px] pc:max-h-[300px] tab:min-h-[250px] tab:max-h-[250px] phone:min-h-[200px] phone:max-h-[200px] max-w-[80%] self-center' loading='lazy'/>
       </div>
 
         <div className='gap-2 flex flex-col  text-slate-100 bg-[#464956] pb-4 pt-3 px-6'>
