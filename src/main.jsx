@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -11,7 +11,7 @@ import { store } from './redux/Store.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  < Provider store = {store}>
+  <Provider store = {store}>
       <ShopContextProvider>
         <App />
       </ShopContextProvider>
